@@ -8,9 +8,9 @@ export default function Description (props) {
                 <h1 className='back' onClick={props.toggle}>{props.proto.name}</h1>
                 <h2>{props.proto.definition}</h2>
                 <form>
-                    <button value='accessor' onClick={props.check}>Accessor</button>
-                    <button value='iteration' onClick={props.check}>Iteration</button>
-                    <button value='mutator' onClick={props.check}>Mutator</button>
+                    <button className='answer' value='accessor' onClick={props.check}>Accessor</button>
+                    <button className='answer' value='iteration' onClick={props.check}>Iteration</button>
+                    <button className='answer' value='mutator' onClick={props.check}>Mutator</button>
                 </form>
             </div>
         </div>

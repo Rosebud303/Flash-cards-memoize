@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import arrayData from './Dataset.js';
 import CardsContainer from './CardsContainer.js';
+import './_App.scss'
 
 
 class App extends Component {
@@ -28,7 +29,6 @@ class App extends Component {
       this.setState({error: error.message})
     });
 
-    console.log(JSON.parse(localStorage.getItem('correctAnswers')))
     if(wrongStorage !== null) {
       updatedCurrentWrong = wrongStorage
     }
@@ -39,8 +39,6 @@ class App extends Component {
     console.log(this.state.wrongAnswers)
     return (
       <div className="App">
-        <h1>TEST YOUR KNOWLEDGE!</h1>
-        {/* <h3>Wrong: {this.state.wrongAnswers.length}</h3> */}
         <CardsContainer prototypes={this.state.prototypes}
           wrong={this.state.wrongAnswers}
         />
