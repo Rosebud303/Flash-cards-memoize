@@ -1,4 +1,5 @@
 .definition-card {
+    box-shadow: 0 10px 10px 0;
     font-family: monospace;
     position: absolute;
     top: 0;
@@ -9,10 +10,14 @@
     text-align: center;
     height: 40rem;
     width: 70rem;
-    background: #ffabab;
+    background: #24bd53;
     border-radius: 30px;
     border: 5px solid;
     margin: auto;
+}
+
+.card{
+    padding: 55px;
 }
 
 .answer {
@@ -22,4 +27,13 @@
     font-size: 30px;
     border-radius: 20px;
     margin: 15px;
+}
+
+.description {
+    font-size: 40px;
+}
+
+.back {
+    font-size: 50px;
+    font-weight: bold;
 }

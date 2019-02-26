@@ -6,7 +6,7 @@ export default function Description (props) {
         <div className='definition-card'>
             <div className='card'>
                 <h1 className='back' onClick={props.toggle}>{props.proto.name}</h1>
-                <h2>{props.proto.definition}</h2>
+                <p className='description'>{props.proto.definition}</p>
                 <form>
                     <button className='answer' value='accessor' onClick={props.check}>Accessor</button>
                     <button className='answer' value='iteration' onClick={props.check}>Iteration</button>

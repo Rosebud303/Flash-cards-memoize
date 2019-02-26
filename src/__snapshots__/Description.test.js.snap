@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description should be a snapshot match 1`] = `
+<div
+  className="definition-card"
+>
+  <div
+    className="card"
+  >
+    <h1
+      className="back"
+    />
+    <p
+      className="description"
+    />
+    <form>
+      <button
+        className="answer"
+        onClick={[MockFunction]}
+        value="accessor"
+      >
+        Accessor
+      </button>
+      <button
+        className="answer"
+        onClick={[MockFunction]}
+        value="iteration"
+      >
+        Iteration
+      </button>
+      <button
+        className="answer"
+        onClick={[MockFunction]}
+        value="mutator"
+      >
+        Mutator
+      </button>
+    </form>
+  </div>
+</div>
+`;
