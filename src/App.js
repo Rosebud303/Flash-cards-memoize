@@ -35,6 +35,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.state.prototypes)
     return (
       <div className="App">
         <CardsContainer prototypes={this.state.prototypes}

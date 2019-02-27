@@ -48,10 +48,6 @@ describe('Cards', () => {
     })
 
     it('should check the type of the card against the value of the button', () => {
-        wrapper.instance().checkType()
-    })
-
-    it('should check the type of the card against the value of the button', () => {
-        wrapper.instance().checkType()
+        wrapper.instance().checkType({preventDefault: () =>{}, target: {value: "accessor" }})
     })
 })

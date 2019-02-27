@@ -41,6 +41,7 @@ export default class CardsContainer extends Component {
         }
     }
     render(){
+        console.log(this.state.deck)
         return (
             <div className="card-container">
                     <h2>PROTOTYPE.memoize™</h2>
