@@ -15,13 +15,13 @@ export default class CardsContainer extends Component {
     componentDidMount (){
         this.setState({
             deck: this.props.prototypes
-        })
+        });
     }
 
     toggleReset = () => {
         this.setState({
             reset: false
-        })
+        });
     }
 
     toggleWrong = () => {
@@ -43,7 +43,7 @@ export default class CardsContainer extends Component {
     render(){
         return (
             <div className="card-container">
-                    <h2>PROTOTYPE.memoize</h2>
+                    <h2>PROTOTYPE.memoize™</h2>
                     <h3>Wrong Count: {this.props.wrong.length}</h3>
                     <button className='show' onClick={this.toggleWrong}>Show Wrong</button>
                     <button className='show' onClick={this.toggleReset}>Reset</button>

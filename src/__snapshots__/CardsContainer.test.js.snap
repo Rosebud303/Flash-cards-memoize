@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardsContainer should create an exact snapshot of component 1`] = `
+<div
+  className="card-container"
+>
+  <h2>
+    PROTOTYPE.memoize™
+  </h2>
+  <h3>
+    Wrong Count: 
+    3
+  </h3>
+  <button
+    className="show"
+    onClick={[Function]}
+  >
+    Show Wrong
+  </button>
+  <button
+    className="show"
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <ul
+    className="cards"
+  >
+    <Cards
+      key="1"
+      proto={
+        Object {
+          "definition": "The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.",
+          "id": 1,
+          "name": ".concat",
+          "type": "accessor",
+        }
+      }
+      reset={false}
+      wrong={
+        Array [
+          Object {
+            "definition": "The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.",
+            "id": 1,
+            "name": ".concat",
+            "type": "accessor",
+          },
+          Object {
+            "definition": "The copyWithin() method shallow copies part of an array to another location in the same array and returns it, without modifying its size.",
+            "id": 2,
+            "name": ".copyWithin",
+            "type": "mutator",
+          },
+          Object {
+            "definition": "The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.",
+            "id": 3,
+            "name": ".entires",
+            "type": "iteration",
+          },
+        ]
+      }
+    />
+    <Cards
+      key="2"
+      proto={
+        Object {
+          "definition": "The copyWithin() method shallow copies part of an array to another location in the same array and returns it, without modifying its size.",
+          "id": 2,
+          "name": ".copyWithin",
+          "type": "mutator",
+        }
+      }
+      reset={false}
+      wrong={
+        Array [
+          Object {
+            "definition": "The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.",
+            "id": 1,
+            "name": ".concat",
+            "type": "accessor",
+          },
+          Object {
+            "definition": "The copyWithin() method shallow copies part of an array to another location in the same array and returns it, without modifying its size.",
+            "id": 2,
+            "name": ".copyWithin",
+            "type": "mutator",
+          },
+          Object {
+            "definition": "The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.",
+            "id": 3,
+            "name": ".entires",
+            "type": "iteration",
+          },
+        ]
+      }
+    />
+    <Cards
+      key="3"
+      proto={
+        Object {
+          "definition": "The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.",
+          "id": 3,
+          "name": ".entires",
+          "type": "iteration",
+        }
+      }
+      reset={false}
+      wrong={
+        Array [
+          Object {
+            "definition": "The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.",
+            "id": 1,
+            "name": ".concat",
+            "type": "accessor",
+          },
+          Object {
+            "definition": "The copyWithin() method shallow copies part of an array to another location in the same array and returns it, without modifying its size.",
+            "id": 2,
+            "name": ".copyWithin",
+            "type": "mutator",
+          },
+          Object {
+            "definition": "The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.",
+            "id": 3,
+            "name": ".entires",
+            "type": "iteration",
+          },
+        ]
+      }
+    />
+  </ul>
+</div>
+`;

@@ -12,6 +12,8 @@ h2 {
     font-family: monospace;
     font-size: 60px;
     margin-bottom: 20px;
+    color: #24bd53;
+    text-shadow: 4px 4px black;
 }
 
 h3 {
@@ -20,6 +22,7 @@ h3 {
 }
 
 .show {
+    background: #e91e63;
     outline: none;
     width: 140px;
     border: 3px solid;
