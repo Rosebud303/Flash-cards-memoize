@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import arrayData from './Dataset.js';
 import { shallow } from 'enzyme';
 import App from './App';
 
@@ -12,9 +13,9 @@ describe('App', () => {
     expect(wrapper).toMatchSnapshot()
   });
 
-  // it('should have default state', () => {
-  //   expect(wrapper.state()).toEqual({prototypes: [], wronAnswers: [], error: ''})
-  // })
+  it('should have default state', () => {
+    expect(wrapper.state()).toEqual({prototypes: arrayData, wrongAnswers: [], error: ''})
+  })
 
   it('renders without crashing', () => {
     const div = document.createElement('div');

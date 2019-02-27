@@ -57,9 +57,10 @@ describe('CardsContainer', () => {
 
     it('should setState if this.state.toggle === false', () => {
         expect(wrapper.state('toggle')).toEqual(false);
+        expect(wrapper.state('deck')).toEqual(mockArray)
         wrapper.instance().toggleWrong();
         expect(wrapper.state('toggle')).toEqual(true);
-        // expect(wrapper.state('deck')).toEqual(mockArray)
+        expect(wrapper.state('deck')).toEqual([]);
     })
     
 })
