@@ -19,10 +19,9 @@ class App extends Component {
     let updatedCurrentWrong = [];
     fetch('http://memoize-datasets.herokuapp.com/api/v1/duyData')
     .then(response => response.json())
-    .then(data => console.log("hello", data))
-    .then(result => {
+    .then(data => {
       this.setState({
-        prototypes: result.prototypes,
+        prototypes: data.duyData,
       })
     })
     .catch(error => {
