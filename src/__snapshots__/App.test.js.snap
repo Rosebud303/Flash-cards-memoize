@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should have a matching snapshot 1`] = `
+<div
+  className="App"
+>
+  <CardsContainer
+    prototypes={
+      Array [
+        Object {
+          "definition": "The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.",
+          "id": 1,
+          "name": ".concat",
+          "type": "accessor",
+        },
+        Object {
+          "definition": "The copyWithin() method shallow copies part of an array to another location in the same array and returns it, without modifying its size.",
+          "id": 2,
+          "name": ".copyWithin",
+          "type": "mutator",
+        },
+        Object {
+          "definition": "The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.",
+          "id": 3,
+          "name": ".entires",
+          "type": "iteration",
+        },
+        Object {
+          "definition": "The every() method tests whether all elements in the array pass the test implemented by the provided function.",
+          "id": 4,
+          "name": ".every",
+          "type": "iteration",
+        },
+        Object {
+          "definition": "The fill() method fills all the elements of an array from a start index to an end index with a static value.",
+          "id": 5,
+          "name": ".fill",
+          "type": "mutator",
+        },
+        Object {
+          "definition": "The filter() method creates a new array with all elements that pass the test implemented by the provided function.",
+          "id": 6,
+          "name": ".filter",
+          "type": "iteration",
+        },
+        Object {
+          "definition": "The find() method returns a value of the first element in the array that satisfies the provided testing function. Otherwise undefined is returned.",
+          "id": 7,
+          "name": ".find",
+          "type": "iteration",
+        },
+        Object {
+          "definition": "The findIndex() method returns an index of the first element in the array that satisfies the provided testing function. Otherwise -1 is returned.",
+          "id": 8,
+          "name": ".findIndex",
+          "type": "iteration",
+        },
+        Object {
+          "definition": "The forEach() method executes a provided function once per array element.",
+          "id": 9,
+          "name": ".forEach",
+          "type": "iteration",
+        },
+        Object {
+          "definition": "The includes() method determines whether an array includes a certain element, returning \\"mutator\\" or \\"\\" as appropriate.",
+          "id": 10,
+          "name": ".includes",
+          "type": "accessor",
+        },
+        Object {
+          "definition": "The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.",
+          "id": 11,
+          "name": ".indexOf",
+          "type": "accessor",
+        },
+        Object {
+          "definition": "The join() method joins all elements of an array into a string.",
+          "id": 12,
+          "name": ".join",
+          "type": "accessor",
+        },
+        Object {
+          "definition": "The keys() method returns a new Array Iterator that contains the keys for each index in the array.",
+          "id": 13,
+          "name": ".keys",
+          "type": "iteration",
+        },
+        Object {
+          "definition": "The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present. The array is searched backwards, starting at fromIndex.",
+          "id": 14,
+          "name": ".lastIndexOf",
+          "type": "accessor",
+        },
+        Object {
+          "definition": "The map() method creates a new array with the results of calling a provided function on every element in this array.",
+          "id": 15,
+          "name": ".map",
+          "type": "iteration",
+        },
+        Object {
+          "definition": "The pop() method removes the last element from an array and returns that element. This method changes the length of the array.",
+          "id": 16,
+          "name": ".pop",
+          "type": "mutator",
+        },
+        Object {
+          "definition": "The push() method adds one or more elements to the end of an array and returns the new length of the array.",
+          "id": 17,
+          "name": ".push",
+          "type": "mutator",
+        },
+        Object {
+          "definition": "The reduce() method applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.",
+          "id": 18,
+          "name": ".reduce",
+          "type": "iteration",
+        },
+        Object {
+          "definition": "The reduceRight() method applies a function against an accumulator and each value of the array (from right-to-left) has to reduce it to a single value.",
+          "id": 19,
+          "name": ".reduceRight",
+          "type": "iteration",
+        },
+        Object {
+          "definition": "The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.",
+          "id": 20,
+          "name": ".reverse",
+          "type": "mutator",
+        },
+        Object {
+          "definition": "The shift() method removes the first element from an array and returns that element. This method changes the length of the array.",
+          "id": 21,
+          "name": ".shift",
+          "type": "mutator",
+        },
+        Object {
+          "definition": "The slice() method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will not be modified.",
+          "id": 22,
+          "name": ".slice",
+          "type": "accessor",
+        },
+        Object {
+          "definition": "The some() method tests whether some element in the array passes the test implemented by the provided function.",
+          "id": 23,
+          "name": ".some",
+          "type": "iteration",
+        },
+        Object {
+          "definition": "The splice() method changes the content of an array by removing existing elements and/or adding new elements",
+          "id": 24,
+          "name": ".splice",
+          "type": "mutator",
+        },
+        Object {
+          "definition": "The toLocaleString() method returns a string representing the elements of the array. The elements are converted to Strings using their toLocaleString methods and these Strings are separated by a locale-specific String (such as a comma “,”).",
+          "id": 25,
+          "name": ".toLocaleString",
+          "type": "accessor",
+        },
+        Object {
+          "definition": "The sort() method sorts the elements of an array in place and returns the array. The sort is not necessarily stable. The default sort order is according to string Unicode code points.",
+          "id": 26,
+          "name": ".sort",
+          "type": "mutator",
+        },
+        Object {
+          "definition": "The toSource() method returns a string representing the source code of the array.",
+          "id": 27,
+          "name": ".toSource",
+          "type": "accessor",
+        },
+        Object {
+          "definition": "The toString() method returns a string representing the specified array and its elements.",
+          "id": 28,
+          "name": ".toString",
+          "type": "accessor",
+        },
+        Object {
+          "definition": "The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.",
+          "id": 29,
+          "name": ".unshift",
+          "type": "mutator",
+        },
+        Object {
+          "definition": "The values() method returns a new Array Iterator object that contains the values for each index in the array.",
+          "id": 30,
+          "name": ".values",
+          "type": "iteration",
+        },
+      ]
+    }
+    wrong={Array []}
+  />
+</div>
+`;

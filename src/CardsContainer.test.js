@@ -55,5 +55,11 @@ describe('CardsContainer', () => {
         wrapper.find('button').at(1).simulate('click')
     })
 
+    it('should setState if this.state.toggle === false', () => {
+        expect(wrapper.state('toggle')).toEqual(false);
+        wrapper.instance().toggleWrong();
+        expect(wrapper.state('toggle')).toEqual(true);
+        // expect(wrapper.state('deck')).toEqual(mockArray)
+    })
     
 })
