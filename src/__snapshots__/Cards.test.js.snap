@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards should match the snap shot 1`] = `
+<input
+  className="unclicked"
+  onClick={[Function]}
+/>
+`;

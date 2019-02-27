@@ -15,13 +15,13 @@ export default class CardsContainer extends Component {
     componentDidMount (){
         this.setState({
             deck: this.props.prototypes
-        });
+        })
     }
 
     toggleReset = () => {
         this.setState({
             reset: false
-        });
+        })
     }
 
     toggleWrong = () => {
