@@ -34,7 +34,7 @@ export default class Cards extends Component {
     render() {
         if(!this.state.showDescription){
             return(
-                <input className='unclicked'onClick={this.toggleDescription} value={this.props.proto.name}>
+                <input className='unclicked' onClick={this.toggleDescription} defaultValue={this.props.proto.name}>
                 </input>
             )
         } else {

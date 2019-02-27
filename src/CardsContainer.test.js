@@ -22,8 +22,6 @@ const mockArray = [{
   }
 ]
 
-const newMockArray = [1,2,3]
-
 describe('CardsContainer', () => {
     let wrapper;
 
@@ -48,4 +46,14 @@ describe('CardsContainer', () => {
         wrapper.instance().toggleReset()
         expect(wrapper.state("reset")).toEqual(false);        
     })
+
+    it('it should call the function being passed down', () => {
+        wrapper.find('button').at(0).simulate('click')
+    })
+
+    it('it should call the function being passed down', () => {
+        wrapper.find('button').at(1).simulate('click')
+    })
+
+    
 })
